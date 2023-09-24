@@ -211,7 +211,7 @@ const generateCommands = (x, y, initialCoordinates) => {
 };
 
 // moveRover('FFFFF')
-// generateCommands(4, 6, 'WEST')
+// getCommands(4, 6, 'WEST')
 module.exports = {
   getCommands,
   moveRover,
