@@ -11,6 +11,7 @@ Mars Rover is an API that translates a set of commands that are sent from Earth 
 
 * Navigate through the project folder in terminal and launch the code
 * Install the required dependencies through the terminal
+  
 ``` npm i ```
 
 
@@ -24,8 +25,9 @@ moveRover(commands) // legit commands is a combination of L, R, F or B letters i
 ```
 getCommands(x, y, direction) // x and y are integers and direction is a string of a heading which can be one of the following (NORTH, EAST, SOUTH, WEST)
 ```
+
 * Run the following command in terminal after calling the function inside the rover.js file
-  ```
+```
 npm start
 ```
 ## Tests
