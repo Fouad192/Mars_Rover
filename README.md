@@ -16,15 +16,18 @@ Mars Rover is an API that translates a set of commands that are sent from Earth 
 
 ### Executing program
 
-* Execute moveRover function inside the script.js file with the desired commands
+* Execute moveRover function inside the rover.js file with the desired commands
 ```
 moveRover(commands) // legit commands is a combination of L, R, F or B letters in a string
 ```
-* Execute getCommands function inside the script.js file with the desired coordinates to be moved to
+* Execute getCommands function inside the rover.js file with the desired coordinates to be moved to
 ```
 getCommands(x, y, direction) // x and y are integers and direction is a string of a heading which can be one of the following (NORTH, EAST, SOUTH, WEST)
 ```
-
+* Run the following command in terminal after calling the function inside the rover.js file
+  ```
+npm start
+```
 ## Tests
 
 * Run the following command in the probject terminal to run the tests for each part of the task
@@ -190,6 +193,7 @@ commandsArray = string[] or []
 * The return values inside willRoverStop are useful for the getCommands function and not the moveRover
 * It is enough to run the unit tests in order to test the application
 * DO NOT run the unit tests while you're calling either main functions (getCommands, moveRover) inside script.js as they will interfere with the tests
+* DO NOT run getCommands and moveRover together.
 * All functions initialized after moveRover function concern the third part of the task
 
 
